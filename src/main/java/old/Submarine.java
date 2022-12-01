@@ -1,4 +1,4 @@
-package old;
+package src.main.java.old;
 
 public class Submarine {
     private Sonar sonar;

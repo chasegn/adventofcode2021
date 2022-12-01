@@ -1,4 +1,4 @@
-package old;
+package src.main.java.old;
 
 import java.io.IOException;
 import java.nio.file.Files;

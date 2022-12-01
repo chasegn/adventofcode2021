@@ -1,4 +1,4 @@
-package firstWeek;
+package com.gchase.adventOfCode.twentyTwentyOne.firstWeek;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,7 +13,7 @@ public class dayOne {
     private dayOne() { }
 
     public static void main(String[] args) throws IOException {
-        List<Integer> depths = getData("resources/intDepths");
+        List<Integer> depths = getData("src/main/resources/intDepths");
 //        List<Integer> depths = getData("resources/testDepths");
 
         System.out.println("part1: " + part1(depths));

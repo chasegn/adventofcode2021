@@ -1,4 +1,4 @@
-package firstWeek;
+package com.gchase.adventOfCode.twentyTwentyOne.firstWeek;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -6,14 +6,13 @@ import java.nio.file.Path;
 import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class dayThree {
     private dayThree() { }
 
     public static void main(String[] args) throws IOException {
-        List<BitSet> binaryVals = getData("resources/binary");
+        List<BitSet> binaryVals = getData("src/main/resources/binary");
 //        List<BitSet> binaryVals = getData("resources/testBinary");
 
         System.out.println(part1(binaryVals));

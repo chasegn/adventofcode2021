@@ -1,4 +1,4 @@
-package firstWeek;
+package com.gchase.adventOfCode.twentyTwentyOne.firstWeek;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -14,7 +14,7 @@ public class dayTwo {
 
     public static void main(String[] args) throws IOException {
 //        List<Direction> directions = getData("resources/testDirections");
-        List<Direction> directions = getData("resources/directions");
+        List<Direction> directions = getData("src/main/resources/directions");
 
         System.out.println(part1(directions));
         System.out.println(part2(directions));
